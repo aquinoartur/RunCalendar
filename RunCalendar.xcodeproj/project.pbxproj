@@ -35,16 +35,6 @@
 			path = RunCalendar;
 			sourceTree = "<group>";
 		};
-		61FE76932CCE633D00BE758D /* RunCalendarTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunCalendarTests;
-			sourceTree = "<group>";
-		};
-		61FE769D2CCE633D00BE758D /* RunCalendarUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunCalendarUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				61FE76822CCE633B00BE758D /* RunCalendar */,
-				61FE76932CCE633D00BE758D /* RunCalendarTests */,
-				61FE769D2CCE633D00BE758D /* RunCalendarUITests */,
 				61FE76812CCE633B00BE758D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				61FE76922CCE633D00BE758D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				61FE76932CCE633D00BE758D /* RunCalendarTests */,
-			);
 			name = RunCalendarTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				61FE769C2CCE633D00BE758D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				61FE769D2CCE633D00BE758D /* RunCalendarUITests */,
 			);
 			name = RunCalendarUITests;
 			packageProductDependencies = (
